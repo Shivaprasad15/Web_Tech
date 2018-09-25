@@ -1,10 +1,11 @@
 main {
 	background-color:#282626;
 	margin-left:50px;
-	border:2px solid yellow;
-	padding: 10px;
+	border:6px solid #F72E40;
+	padding: 25px;
 	margin-top:70px;
 	margin-right:50px;
+	border-style:ridge;
 	
 }
 name,bra,col{
@@ -16,10 +17,10 @@ email{
 	display: block;
 }
 students{
-	padding:15px;
+	padding:70px;
 	
 }
 usn{
-	color:#FF5733;
+	color:#FFC300;
 	display: block;
 }
