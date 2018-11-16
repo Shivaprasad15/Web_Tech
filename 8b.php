@@ -5,10 +5,10 @@ $trans=array(
 	array(5,6,7));
 echo "<h2> matrix</h2>";
 for($row=0;$row<3;$row++){
-	echo "<center><p><b>row number $row</b></p></center>";
+	echo "<br>";
 	for($col=0;$col<3;$col++)
 	{
-	echo "<center><p>".$trans[$row][$col]."</p></center>";
+	echo "  ".$trans[$row][$col]."  ";
 }
 }
 
