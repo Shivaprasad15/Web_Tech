@@ -9,9 +9,10 @@ $b=array(
 	array(8,4,2));
 $c=array();
 for($row=0;$row<3;$row++){
+	echo "<br>";
 for($col=0;$col<3;$col++){
 $c[$row][$col]=$a[$row][$col]+$b[$row][$col];
-echo "<center><p>".$c[$row][$col]."</p></center>";
+echo "   ".$c[$row][$col]."   ";
 }}
 ?>
 
