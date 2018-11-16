@@ -15,7 +15,7 @@ for($row=0;$row<3;$row++){
 
 echo "<h2> transpose of matrix </h2>";
 for($row=0;$row<3;$row++){
-	echo "<center><p><b>row number $row</b></p></center>";
+	echo "<br>";
 	for($col=0;$col<3;$col++)
 	{
 	echo "<center><p>".$trans[$col][$row]."</p></center>";
