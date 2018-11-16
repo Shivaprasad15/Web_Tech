@@ -18,7 +18,7 @@ for($row=0;$row<3;$row++){
 	echo "<br>";
 	for($col=0;$col<3;$col++)
 	{
-	echo "<center><p>".$trans[$col][$row]."</p></center>";
+	echo "  ".$trans[$col][$row]."  ";
 }
 }
 ?>
